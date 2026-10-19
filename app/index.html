@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#163f32">
+  <title>ClearMilestone · Judge Console</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#workspace">Skip to workspace</a>
+<header class="topbar"><a class="brand" href="./"><span class="mark">C<span>↗</span></span>ClearMilestone<span class="brand-sub">BEZPOŚREDNIKA</span></a><span class="network">● SOLANA DEVNET ONLY</span></header>
+<main id="workspace">
+  <section class="intro"><div><p class="eyebrow">DIRECT WORK. CLEAR EXITS.</p><h1>A milestone.<br>A promise on chain.</h1><p class="lede">Fund the scope. Commit the delivery. Settle fairly.<br>No middleman between good work and getting paid.</p></div><div class="intro-note"><span>01 / JUDGE CONSOLE</span><p>Built for independent work.<br><strong>Zaufanie, zapisane.</strong></p><small>0% platform commission · Native SOL escrow</small></div></section>
+  <div id="feedback" class="notice" role="status" aria-live="polite">Loading the Solana client…</div>
+  <section class="card setup" aria-labelledby="setup-title"><div class="section-head"><h2 id="setup-title">Connect your workspace</h2><span class="tag">DEVNET SANDBOX</span></div>
+    <div class="grid two"><label>Devnet RPC URL<input id="rpc" type="url" value="https://api.devnet.solana.com" spellcheck="false"></label><label>Deployed program ID<input id="program" placeholder="Paste your actual Devnet deployment address" spellcheck="false"></label></div>
+    <p class="help">The source program ID is a placeholder. Enter an executable deployment. Network genesis is checked before signing.</p>
+    <div class="wallet-row"><button data-wallet="Phantom">Connect Phantom</button><button data-wallet="Solflare">Connect Solflare</button><button data-wallet="Backpack">Connect Backpack</button><button id="disconnect" class="quiet">Disconnect</button></div>
+    <div class="judge"><div><h3>Ephemeral Devnet Judge Signers</h3><p>Three real keypairs, held only in memory. Reloading loses these keys and access to remaining funds. Use test SOL only.</p></div><button id="create-judges" class="primary">Create judge signers ↗</button></div>
+    <div id="judge-roles" class="role-row" hidden><button data-role="client">Client</button><button data-role="contractor">Contractor</button><button data-role="arbiter">Arbiter</button><button id="fill-judges" class="quiet">Use judge parties in form</button></div>
+    <div class="signer-line"><span id="signer">No signer connected</span><span id="balance">Balance not fetched</span></div>
+    <div class="wallet-row"><button id="airdrop">Request 1 Devnet SOL</button><button id="refresh-balance">Refresh balance</button></div>
+    <details><summary>Transfer test SOL</summary><div class="grid two"><label>Recipient address<input id="transfer-to" spellcheck="false"></label><label>Amount (SOL)<input id="transfer-amount" inputmode="decimal" value="0.01"></label></div><button id="transfer">Send test SOL</button><p class="help">Sends from the selected signer. Network fees also apply.</p></details>
+  </section>
+  <div class="workspace-grid"><div>
+    <section class="card" aria-labelledby="contract-title"><div class="section-head"><h2 id="contract-title">01 / Set the agreement</h2><span class="tag">SCOPE → ESCROW</span></div>
+      <div class="grid two"><label>Client address<input id="client" spellcheck="false"></label><label>Contractor address<input id="contractor" spellcheck="false"></label><label>Arbiter address<input id="arbiter" spellcheck="false"></label><label>Sprint ID (u64)<input id="sprint-id" inputmode="numeric" value="1"></label></div>
+      <button id="use-signer" class="quiet">Use active signer as client</button>
+      <div class="grid two terms"><label>Principal (SOL)<input id="amount" inputmode="decimal" value="0.1"></label><label>Review window (seconds)<input id="window" inputmode="numeric" value="300"></label><label>Kill fee (bps, max 5000)<input id="kill-fee" inputmode="numeric" value="1000"></label><label>Arbiter fee (bps, max 500)<input id="arbiter-fee" inputmode="numeric" value="200"></label></div>
+      <label>Agreed specification<textarea id="spec" rows="4" placeholder="Describe the exact scope and acceptance criteria…"></textarea></label><div class="hash-line"><button id="hash-spec" class="quiet">Calculate Spec Hash</button><output id="spec-hash">SHA-256 of exact UTF-8 bytes</output></div>
+      <div class="wallet-row"><button id="initialize" class="primary">Fund sprint ↗</button><button id="load">Derive PDA & refresh</button></div>
+      <p class="help">Funding requires the client signer. Rent + transaction fees are additional. Use a fresh sprint ID for each scenario; an existing PDA cannot be reused.</p>
+    </section>
+    <section class="card" aria-labelledby="actions-title"><div class="section-head"><h2 id="actions-title">02 / Move the work forward</h2><span id="role-status" class="tag">NO SIGNER</span></div>
+      <p class="help">Controls follow the loaded account and signer. Refresh after the review deadline to update chain time. No background transactions.</p>
+      <div class="action-grid">
+        <article class="action"><span class="step">01 · CONTRACTOR</span><h3>Commit delivery</h3><label>Deliverable file<input id="deliverable-file" type="file"></label><label>Retrieval URI (≤128 UTF-8 bytes)<input id="deliverable-uri" placeholder="https://…" spellcheck="false"></label><button id="hash-deliverable" class="quiet">Calculate Deliverable Hash</button><output id="deliverable-hash" class="hash">File stays on your device. Hosting is separate.</output><button data-action="submit_deliverable">Submit deliverable ↗</button></article>
+        <article class="action"><span class="step">02 · CLIENT</span><h3>Accept & release</h3><p>Pay the full principal to the contractor. Allowed before or after submission.</p><button data-action="approve_deliverable">Approve delivery ↗</button></article>
+        <article class="action"><span class="step">03 · CONTRACTOR</span><h3>Claim after review</h3><p>The deadline has passed? Claim the full principal without client approval.</p><button data-action="claim_after_timeout">Claim after timeout ↗</button></article>
+        <article class="action"><span class="step">04 · CLIENT</span><h3>Cancel the sprint</h3><p>Before submission only. The contractor receives the agreed kill fee; the client receives the remainder.</p><button data-action="cancel_before_submission">Cancel before submission ↗</button></article>
+        <article class="action"><span class="step">05 · EITHER PARTY</span><h3>Raise a dispute</h3><label>Dispute evidence / reason<textarea id="dispute" rows="3" placeholder="Describe what needs arbitration…"></textarea></label><button id="hash-dispute" class="quiet">Calculate Dispute Hash</button><output id="dispute-hash" class="hash">SHA-256 of exact UTF-8 bytes</output><p>Before the deadline only. Freezes release until the arbiter resolves.</p><button data-action="raise_dispute">Raise dispute ↗</button></article>
+        <article class="action"><span class="step">06 · ARBITER</span><h3>Resolve fairly</h3><label>Contractor share (bps, 0–10000)<input id="share" value="5000" inputmode="numeric"></label><p>The arbiter fee is deducted first. The share applies to the remainder.</p><button data-action="resolve_dispute">Resolve dispute ↗</button></article>
+      </div>
+    </section>
+  </div><aside>
+    <section class="card summary" aria-labelledby="summary-title"><div class="section-head"><h2 id="summary-title">On-chain agreement</h2><span id="state-badge" class="tag">NOT LOADED</span></div><a id="pda-link" hidden target="_blank" rel="noopener noreferrer"></a><p id="observation" class="help">Load a PDA to inspect confirmed state.</p><div id="account-summary" class="account-summary"><p class="empty">Your agreement will appear here.<br>Real chain state, no demo balances.</p></div><p id="deadline" class="help"></p><div id="payouts"></div><p class="help">Rent is separate from principal. Settled accounts stay open; rent and donations remain in the PDA. No close instruction exists.</p></section>
+    <section class="card"><div class="section-head"><h2>Activity</h2><span class="tag">THIS SESSION</span></div><p class="help">Signatures appear immediately after broadcast. If confirmation is uncertain, inspect Explorer before retrying.</p><ol id="activity" class="activity"><li class="empty">No transactions sent.</li></ol></section>
+    <div class="footnote"><span class="mark small">C↗</span><p>A hash commits to bytes, not quality.<br>Arbitration is a human decision. A missing arbiter can leave disputed funds locked.</p></div>
+  </aside></div>
+</main><footer>ClearMilestone · BezPośrednika <span>Built for independent work on Solana.</span></footer>
+</body></html>

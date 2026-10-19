@@ -1,0 +1,13 @@
+[toolchain]
+anchor_version = "0.30.1"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+clear_milestone = "Fg6PaFpoGXkYsidMpWxTWqkZ7FEfcYkgMQHGdVQJQ5yQ"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"

@@ -1,0 +1,5 @@
+/target/
+/crates/state-machine-verifier/target/
+/node_modules/
+.DS_Store
+*.keypair.json
