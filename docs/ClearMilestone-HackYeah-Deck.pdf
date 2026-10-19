@@ -1,0 +1,258 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 1188 >>
+stream
+0.96 0.97 0.94 rg 0 0 792 445.5 re f
+0.11 0.27 0.19 rg 0 405 792 40.5 re f
+BT /F1 11 Tf 0.92 0.96 0.90 rg 44 420 Td (01 / CLEAR MILESTONE \(BEZPOSREDNIKA\)) Tj ET
+BT /F1 21 Tf 0.10 0.14 0.12 rg 44 358 Td (Replacing Web2 Freelance Escrow Intermediaries on Solana) Tj ET
+0.18 0.42 0.28 RG 1.5 w 44 342 m 748 342 l S
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 306 Td (Track: HackYeah - Superteam Poland Track \(Replace a Web2 Intermediary\)) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 272 Td (Target User: Independent Polish/EU B2B Software Engineers & Indie Studios) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 238 Td (Redesigned Relationship: Direct Client <-> Contractor Fixed-Scope Sprints) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 204 Td (Core Principle: Custody, kill-fees, acceptance timeouts, and dispute splits) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 170 Td (execute deterministically inside the Solana program with 0% platform cut.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 136 Td (Repository: https://github.com/c-viper-work/clear-milestone-solana) Tj ET
+BT /F3 10 Tf 0.40 0.45 0.42 rg 44 26 Td (ClearMilestone / BezPosrednika  |  Solana On-Chain Sprint Escrow  |  Slide 1 of 10) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 24 0 R /MediaBox [0 0 792 445.5] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 1337 >>
+stream
+0.96 0.97 0.94 rg 0 0 792 445.5 re f
+0.11 0.27 0.19 rg 0 405 792 40.5 re f
+BT /F1 11 Tf 0.92 0.96 0.90 rg 44 420 Td (02 / THE SPECIFIC USER) Tj ET
+BT /F1 21 Tf 0.10 0.14 0.12 rg 44 358 Td (Who Uses ClearMilestone & Why Web2 Fails Them) Tj ET
+0.18 0.42 0.28 RG 1.5 w 44 342 m 748 342 l S
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 306 Td (Specific User: Independent Polish B2B software/game engineer \(Kontraktor B2B\)) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 272 Td (delivering a 1-to-4 week milestone for an overseas studio or startup client.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 238 Td (Pain Point 1 \(Fee Extraction\): Web2 marketplaces \(Upwork/Fiverr/Escrow.com\)) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 204 Td (take 10%-20% of contract value plus 2%-4% cross-border FX conversion spreads.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 170 Td (Pain Point 2 \(Payout Delay\): Even after client approval, funds are held 5-14 days.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 136 Td (Pain Point 3 \(Asymmetric Risk\): Clients can cancel mid-sprint with $0 kill-fee) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 102 Td (or ghost after receiving code, freezing contractor payout behind support tickets.) Tj ET
+BT /F3 10 Tf 0.40 0.45 0.42 rg 44 26 Td (ClearMilestone / BezPosrednika  |  Solana On-Chain Sprint Escrow  |  Slide 2 of 10) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 24 0 R /MediaBox [0 0 792 445.5] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 1338 >>
+stream
+0.96 0.97 0.94 rg 0 0 792 445.5 re f
+0.11 0.27 0.19 rg 0 405 792 40.5 re f
+BT /F1 11 Tf 0.92 0.96 0.90 rg 44 420 Td (03 / THE REDESIGNED RELATIONSHIP) Tj ET
+BT /F1 21 Tf 0.10 0.14 0.12 rg 44 358 Td (What Changes When the Intermediary Becomes a Solana Program) Tj ET
+0.18 0.42 0.28 RG 1.5 w 44 342 m 748 342 l S
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 306 Td (Before \(Web2\): Client -> Platform Custodian -> Opaque Ticket Queue -> Contractor) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 272 Td (After \(Solana\): Client <-> SprintEscrow PDA <-> Contractor \(+ Optional Arbiter\)) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 238 Td (1. Upfront Principal Lock: Client locks exact lamports in a deterministic PDA.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 204 Td (2. Cryptographic Delivery Proof: Contractor commits SHA-256 of deliverable bytes) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 170 Td (   on-chain, starting the authoritative Solana Clock review countdown.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 136 Td (3. Zero Platform Rent-Seeking: 0% protocol fee; 100% of principal is conserved) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 102 Td (   across contractor, client, and agreed arbiter basis points.) Tj ET
+BT /F3 10 Tf 0.40 0.45 0.42 rg 44 26 Td (ClearMilestone / BezPosrednika  |  Solana On-Chain Sprint Escrow  |  Slide 3 of 10) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 24 0 R /MediaBox [0 0 792 445.5] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 1330 >>
+stream
+0.96 0.97 0.94 rg 0 0 792 445.5 re f
+0.11 0.27 0.19 rg 0 405 792 40.5 re f
+BT /F1 11 Tf 0.92 0.96 0.90 rg 44 420 Td (04 / ON-CHAIN STATE MACHINE \(SPRINTESCROW PDA\)) Tj ET
+BT /F1 21 Tf 0.10 0.14 0.12 rg 44 358 Td (All Intermediary Logic Lives in programs/clear-milestone/src/lib.rs) Tj ET
+0.18 0.42 0.28 RG 1.5 w 44 342 m 748 342 l S
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 306 Td (Deterministic Seeds: [b"sprint", client, contractor, sprint_id.to_le_bytes\(\)]) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 272 Td (Fixed 386-Byte Account Layout: 3 distinct party Pubkeys, sprint_id, principal,) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 238 Td (kill_fee_bps \(<=5000\), arbiter_fee_bps \(<=500\), review_window_secs \(<=30d\),) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 204 Td (created_at, submitted_at, auto_release_at, spec/deliverable/dispute SHA-256,) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 170 Td (bounded UTF-8 deliverable URI \(<=128B\), status enum \(0..=6\), canonical bump.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 136 Td (Strict 4-Address Distinctness: Escrow PDA, Client, Contractor, and Arbiter) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 102 Td (must all be distinct public keys.) Tj ET
+BT /F3 10 Tf 0.40 0.45 0.42 rg 44 26 Td (ClearMilestone / BezPosrednika  |  Solana On-Chain Sprint Escrow  |  Slide 4 of 10) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 24 0 R /MediaBox [0 0 792 445.5] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 1484 >>
+stream
+0.96 0.97 0.94 rg 0 0 792 445.5 re f
+0.11 0.27 0.19 rg 0 405 792 40.5 re f
+BT /F1 11 Tf 0.92 0.96 0.90 rg 44 420 Td (05 / SEVEN DETERMINISTIC ON-CHAIN INSTRUCTIONS) Tj ET
+BT /F1 21 Tf 0.10 0.14 0.12 rg 44 358 Td (Complete Lifecycle Without Backend Servers) Tj ET
+0.18 0.42 0.28 RG 1.5 w 44 342 m 748 342 l S
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 306 Td (1. initialize_sprint: Validates terms & transfers principal into SprintEscrow PDA.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 272 Td (2. submit_deliverable: Contractor records SHA-256 + URI; sets auto_release_at.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 238 Td (3. approve_deliverable: Client releases 100% of principal to Contractor.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 204 Td (4. claim_after_timeout: If Clock.unix_timestamp >= auto_release_at in Submitted) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 170 Td (   state, Contractor claims 100% of principal without waiting for a ghosting client.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 136 Td (5. cancel_before_submission: Client cancels in Funded state; program atomically) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 102 Td (   pays kill_fee_bps to Contractor and refunds the exact remainder to Client.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 68 Td (6-7. raise_dispute & resolve_dispute: Freezes timeout; Arbiter splits remainder.) Tj ET
+BT /F3 10 Tf 0.40 0.45 0.42 rg 44 26 Td (ClearMilestone / BezPosrednika  |  Solana On-Chain Sprint Escrow  |  Slide 5 of 10) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 24 0 R /MediaBox [0 0 792 445.5] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 1337 >>
+stream
+0.96 0.97 0.94 rg 0 0 792 445.5 re f
+0.11 0.27 0.19 rg 0 405 792 40.5 re f
+BT /F1 11 Tf 0.92 0.96 0.90 rg 44 420 Td (06 / SOLANA SVM RENT & CONSERVATION HARDENING) Tj ET
+BT /F1 21 Tf 0.10 0.14 0.12 rg 44 358 Td (Engineered for Real-World Solana Runtime Constraints) Tj ET
+0.18 0.42 0.28 RG 1.5 w 44 342 m 748 342 l S
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 306 Td (1. Exact Lamport Conservation: Every settlement path \(Approve, Claim, Cancel,) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 272 Td (   Resolve\) is proven across all basis points \(0..=10000\) and up to u64::MAX.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 238 Td (2. Escrow Rent Preservation: settle\(\) verifies PDA retains its own rent-exempt) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 204 Td (   minimum plus full principal before executing any debit.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 170 Td (3. Recipient Rent-Exemption Guard \(RecipientBelowRent\): Prevents Solana SVM) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 136 Td (   InsufficientFundsForRent aborts when paying small splits to 0-lamport accounts;) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 102 Td (   the UI automatically prepends atomic SystemProgram.transfer top-ups.) Tj ET
+BT /F3 10 Tf 0.40 0.45 0.42 rg 44 26 Td (ClearMilestone / BezPosrednika  |  Solana On-Chain Sprint Escrow  |  Slide 6 of 10) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 24 0 R /MediaBox [0 0 792 445.5] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 1359 >>
+stream
+0.96 0.97 0.94 rg 0 0 792 445.5 re f
+0.11 0.27 0.19 rg 0 405 792 40.5 re f
+BT /F1 11 Tf 0.92 0.96 0.90 rg 44 420 Td (07 / ZERO-BUILD JUDGE & USER CONSOLE \(app/\)) Tj ET
+BT /F1 21 Tf 0.10 0.14 0.12 rg 44 358 Td (Connect Wallet -> Trigger Transaction -> Inspect on Solana Explorer) Tj ET
+0.18 0.42 0.28 RG 1.5 w 44 342 m 748 342 l S
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 306 Td (1. Wallet & Judge Modes: Supports Phantom, Solflare, and Backpack extensions,) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 272 Td (   plus one-click in-memory 3-role Ephemeral Judge Signers \(Client/Contractor/Arbiter\).) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 238 Td (2. Local WebCrypto Hashing: Calculates SHA-256 of sprint specs, deliverable files,) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 204 Td (   and dispute evidence directly in the browser \(no file upload or backend\).) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 170 Td (3. Fail-Closed RPC & Broadcast Safety: Verifies Devnet genesis hash before signing,) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 136 Td (   extracts local Base58 signatures prior to broadcast, and links every tx and PDA) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 102 Td (   directly to Solana Explorer \(Devnet\).) Tj ET
+BT /F3 10 Tf 0.40 0.45 0.42 rg 44 26 Td (ClearMilestone / BezPosrednika  |  Solana On-Chain Sprint Escrow  |  Slide 7 of 10) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 24 0 R /MediaBox [0 0 792 445.5] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 1211 >>
+stream
+0.96 0.97 0.94 rg 0 0 792 445.5 re f
+0.11 0.27 0.19 rg 0 405 792 40.5 re f
+BT /F1 11 Tf 0.92 0.96 0.90 rg 44 420 Td (08 / DOUBLE-BLIND QA & FORMAL VERIFICATION) Tj ET
+BT /F1 21 Tf 0.10 0.14 0.12 rg 44 358 Td (751 Frontend/Wire Checks + 11 Rust Invariant Tests + SBF Compilation) Tj ET
+0.18 0.42 0.28 RG 1.5 w 44 342 m 748 342 l S
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 306 Td (- Rust State-Machine & Boundary Verifier: 11/11 tests passing \(all 8 statuses x) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 272 Td (  4 roles x 6 actions x 3 deadline states, plus rent & 4-address boundaries\).) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 238 Td (- Independent Wire & Borsh Oracle \(scripts/check-frontend.py\): 751/751 checks) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 204 Td (  passing against compiled Rust oracle and independent SHA-256/PDA vectors.) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 170 Td (- Solana SBF Release Build: Compiled cleanly to optimized SBF ELF \(.so\) and) Tj ET
+BT /F2 13.5 Tf 0.14 0.18 0.15 rg 48 136 Td (  Anchor JSON IDL via scripts/playground-build.py.) Tj ET
+BT /F3 10 Tf 0.40 0.45 0.42 rg 44 26 Td (ClearMilestone / BezPosrednika  |  Solana On-Chain Sprint Escrow  |  Slide 8 of 10) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 24 0 R /MediaBox [0 0 792 445.5] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 1309 >>
+stream
+0.96 0.97 0.94 rg 0 0 792 445.5 re f
+0.11 0.27 0.19 rg 0 405 792 40.5 re f
+BT /F1 11 Tf 0.92 0.96 0.90 rg 44 420 Td (09 / WEB2 INTERMEDIARY VS. CLEARMILESTONE ON SOLANA) Tj ET
+BT /F1 21 Tf 0.10 0.14 0.12 rg 44 358 Td (Structural Comparison) Tj ET
+0.18 0.42 0.28 RG 1.5 w 44 342 m 748 342 l S
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 306 Td (Metric                  Web2 Escrow \(Upwork/Escrow\)   ClearMilestone \(Solana\)) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 272 Td (-----------------------------------------------------------------------------) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 238 Td (Platform / Escrow Fee   10% - 20% + FX spread         0% protocol fee) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 204 Td (Payout Clearing Delay   5 - 14 business days          Immediate finality) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 170 Td (Client Ghosting Remedy  Manual support ticket         Clock timeout claim) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 136 Td (Early Cancel Kill-Fee   Discretionary / uncollectible Atomic kill_fee split) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 102 Td (Deliverable Timestamp   Mutable platform database     SHA-256 + Solana Clock) Tj ET
+BT /F3 10 Tf 0.40 0.45 0.42 rg 44 26 Td (ClearMilestone / BezPosrednika  |  Solana On-Chain Sprint Escrow  |  Slide 9 of 10) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 24 0 R /MediaBox [0 0 792 445.5] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 1135 >>
+stream
+0.96 0.97 0.94 rg 0 0 792 445.5 re f
+0.11 0.27 0.19 rg 0 405 792 40.5 re f
+BT /F1 11 Tf 0.92 0.96 0.90 rg 44 420 Td (10 / LINKS & VERIFICATION COMMANDS) Tj ET
+BT /F1 21 Tf 0.10 0.14 0.12 rg 44 358 Td (Open Source & Reproducible in Seconds) Tj ET
+0.18 0.42 0.28 RG 1.5 w 44 342 m 748 342 l S
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 306 Td (Public GitHub Repo: https://github.com/c-viper-work/clear-milestone-solana) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 272 Td (Live Web Console:   https://c-viper-work.github.io/clear-milestone-solana/app/) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 238 Td (Run Rust Verifier:  cargo test --offline --manifest-path) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 204 Td (                    crates/state-machine-verifier/Cargo.toml) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 170 Td (Run 751 Wire Tests: python3 scripts/check-frontend.py) Tj ET
+BT /F3 11.2 Tf 0.14 0.18 0.15 rg 48 136 Td (Serve Console:      python3 -m http.server 8080 --bind 127.0.0.1 --directory app) Tj ET
+BT /F3 10 Tf 0.40 0.45 0.42 rg 44 26 Td (ClearMilestone / BezPosrednika  |  Solana On-Chain Sprint Escrow  |  Slide 10 of 10) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 24 0 R /MediaBox [0 0 792 445.5] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R] /Count 10 >>
+endobj
+25 0 obj
+<< /Type /Catalog /Pages 24 0 R >>
+endobj
+xref
+0 26
+0000000000 65535 f 
+0000000015 00000 n 
+0000000090 00000 n 
+0000000160 00000 n 
+0000000228 00000 n 
+0000001468 00000 n 
+0000001617 00000 n 
+0000003006 00000 n 
+0000003155 00000 n 
+0000004545 00000 n 
+0000004694 00000 n 
+0000006077 00000 n 
+0000006228 00000 n 
+0000007765 00000 n 
+0000007916 00000 n 
+0000009306 00000 n 
+0000009457 00000 n 
+0000010869 00000 n 
+0000011020 00000 n 
+0000012284 00000 n 
+0000012435 00000 n 
+0000013797 00000 n 
+0000013948 00000 n 
+0000015136 00000 n 
+0000015287 00000 n 
+0000015407 00000 n 
+trailer
+<< /Size 26 /Root 25 0 R >>
+startxref
+15458
+%%EOF
